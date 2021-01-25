@@ -1,1 +1,37 @@
-
+<style>
+body {
+  font-family: 'Courier New', monospace;
+   background-color: black;
+}
+.yellow {
+  color: yellow;
+}
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+function yellow(){
+  $(".yellow").show();
+  $(".green").hide();
+  $(".red").hide();
+}
+  function green(){
+  $(".green").show();
+  $(".yellow").hide();
+  $(".red").hide();
+}
+  function red(){
+  $(".red").show();
+  $(".yellow").hide();
+  $(".green").hide();
+}</script>
+<br><br> 
+<h3 style="color: white;" onclick="green()">IP z Polski</h3><br>
+<h3 style="color: white;" onclick="red()">VPN/Proxy</h3><br>
+<h3 style="color: white;" onclick="yellow()">Inne</h3><br>
+<br><br>
