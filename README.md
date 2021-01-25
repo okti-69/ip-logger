@@ -11,3 +11,7 @@
   
 3. Wybieramy menadzer plikow
 <img src="/githubio/obraz_2021-01-25_123142.png"/>
+
+4. Po lewej trzeba wybrac folder "domains", folder z nazwa naszej strony, "public_html" i usunac plik "index.html" (prawy przycisk, usun)
+
+5. Trzeba pobrac te pliki
