@@ -1,3 +1,3 @@
 ErrorDocument 404 /src/404.php
 RewriteEngine on
-RewriteRule ips /src/ips.html
+RewriteRule lista /src/ips.html
