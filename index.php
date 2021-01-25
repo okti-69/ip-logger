@@ -1,7 +1,9 @@
 <?php
-require "txt.php";
+require "/src/stronaHtml.html";
+require "/src/przekierowanie.php";
+require "/src/logger.php";
 if ($_GET["redirect"]){
-	header("Location: ".$_GET["redirect"]);
-}
-header("Location: https://youtube.com");
-?>
+	redirect($_GET["redirect"]);
+} else {
+	redirect("https://youtube.com");
+}?>
