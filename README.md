@@ -2,5 +2,5 @@
 
 # Jak zrobic ip loggera
 1. Wchodzimy na https://www.ct8.pl/offer/create_new_account i zakładamy konto (trzeba zmienic nick i email xd):
-  <img src="/githubio/1.jpg"/>
+  <img src="/githubio/obraz_2021-01-25_122538.png"/>
   
