@@ -10,4 +10,4 @@
 2. Logujemy sie na <a href="http://panel.ct8.pl>panel.ct8.pl</a> (haslo przyszlo emailem)
   
 3. Wybieramy menadzer plikow
-<img src="/githubio/obraz_2021-01-25_123100.png"/>
+<img src="/githubio/obraz_2021-01-25_123142.png"/>
