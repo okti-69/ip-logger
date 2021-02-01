@@ -20,3 +20,5 @@
 6. Trzeba je rozpakowac z zip i te pliki wszystkie przeciągnąć na https://panel.ct8.pl/file_manager/ 
 
 7. Ip logger gotowy xd
+
+Jak ktos wbije na ta strone (nick.ct8.pl) to jego ip zapisze sie na liscie (nick.ct8.pl/ips)
