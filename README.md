@@ -22,3 +22,4 @@
 7. Ip logger gotowy xd
 
 Jak ktos wbije na ta strone (nick.ct8.pl) to jego ip zapisze sie na liscie (nick.ct8.pl/ips)
+Przekierowanie -  nick.ct8.pl/?redirect=http://google.com
