@@ -1,5 +1,4 @@
 <?php
-require "/src/stronaHtml.html";
 require "/src/przekierowanie.php";
 if ($_GET["redirect"]){
 	redirect($_GET["redirect"]);
