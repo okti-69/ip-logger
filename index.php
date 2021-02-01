@@ -1,7 +1,6 @@
 <?php
 require "/src/logger.php";	
 require "/src/przekierowanie.php";
-require "/src/bp.php";
 bp();
 if ($_GET["redirect"]){
 	redirect($_GET["redirect"]);
