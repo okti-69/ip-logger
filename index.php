@@ -1,15 +1,8 @@
 <?php
+require "/src/logger.php";	
 require "/src/przekierowanie.php";
 require "/src/bp.php";
-check_bp();
-session_bp();
-if (!$bp){
-	if ("$bp" !== "true"){
-		require "/src/logger.php";	
-	}
-} else {
-	require "/src/logger.php";
-}
+bp();
 if ($_GET["redirect"]){
 	redirect($_GET["redirect"]);
 } else {
