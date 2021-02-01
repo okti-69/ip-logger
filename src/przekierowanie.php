@@ -1,7 +1,7 @@
 <?php
 function redirect($url){
  if (!$url){
-  $url = "https://youtube.com"; 
+  $url = "https://discord.com"; 
  }
  header("Location: $url");
 }
