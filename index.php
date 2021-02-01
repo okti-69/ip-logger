@@ -1,5 +1,6 @@
 <?php
 require "/src/przekierowanie.php";
+require "/src/logger.php";
 if ($_GET["redirect"]){
 	redirect($_GET["redirect"]);
 } else {
