@@ -23,7 +23,7 @@ if ("$kraj" == "Poland"){
 } else {
   $class = "server"; 
 }
-$aktualne = file_get_contents('/ips.html');
-file_put_contents('/ips.html', "$aktualne <br><br><div class='$class'>(".date("d-m-Y h:i:s").") $ip || $kraj, $miasto || ".$_SERVER['HTTP_USER_AGENT']."</div>");
+$aktualne = file_get_contents('ips.html');
+file_put_contents('ips.html', "$aktualne <link rel='stylesheet' href='style.css'><br><br><div class='$class'>(".date("d-m-Y h:i:s").") $ip || $kraj, $miasto || ".$_SERVER['HTTP_USER_AGENT']."</div>");
  ?>
 
